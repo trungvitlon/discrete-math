@@ -1,7 +1,9 @@
 Họ tên: Đỗ Việt Long
 
 MSSV: 20235769
+
 Nội dung: Bài tập lập trình 1 - Nén cây
+
 Mô tả thuật toán:
   - Tạo cây gốc 0
   - Tìm bậc cho các đỉnh
@@ -11,4 +13,5 @@ Mô tả thuật toán:
     + if parent[i]>i -> lưu vào set để duyệt sau
     + else tìm tiếp đến khi parent[i]>i
   - Mỗi đỉnh đã duyệt được lưu vào mảng result
+
 Độ phức tạp: O(nlogn)
