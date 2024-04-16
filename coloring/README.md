@@ -13,12 +13,12 @@
 1. Bước 1: Mở Terminal
 2. Bước 2: Nhập
 ```sh
-g++ coloring.cpp -o out
+g++ main.cpp -o out
 ```
 3. Bước 3: Nhập
 ```sh
-./out < in.txt > graph.dot
+./out < dothi.txt > dothitomau.dot
 ```
-4. Mở file `graph.dot` và xem preview trên VSCode
+4. Mở file `dothitomau.dot` và xem preview trên VSCode
 
 
