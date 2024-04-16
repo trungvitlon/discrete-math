@@ -32,7 +32,7 @@ int main(){
         deg[v]++;
     }
     dfs(0);
-    //cout<<par[75];
+    //cout<<deg[88]<<endl;
 #if 1
     set<int>s;
     for(i=1;i<=n;i++)
@@ -52,14 +52,14 @@ int main(){
                 break;
             }
             else{
-                y=x;
+                //y=x;
                 x=par[x];
                 res[j++]=x;
                 deg[x]--;
             }
         }
     }
-
+    //cout<<j<<endl;
     for(i=0;i<j-1;i++)
         cout<<res[i]<<" ";
 
